@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="./css/main.css" rel="stylesheet">
+</head>
+<body>
+    <div class="draggable-region"></div>
+    <div class="navigation-bar">
+        <div id="home"><h3>Home</h3></div>
+        <div id="setting"><h3>Setting</h3></div>
+    </div>
+    <div id="close-btn"><img src="../assets/close.png" height="18" width="18" draggable="false"></div>
+    <div id="content">
+        <div id="memory-allocate">
+            <h2>Memory Allocated</h2>
+            <p>How much memory we should use for the client?</p>
+            <input type="range" min="5" max="160" value="10" id="memory-slider">
+            <h4 id="amount_memory"></h4>
+        </div>
+    </div>
+    <div id="info">
+        <img src="../assets/logo.png" id="info1" height="25" width="25" draggable="false">
+        <img src="../assets/discord.png" id="info2" height="25" width="25" draggable="false">
+        <img src="../assets/github.png" id="info3" height="25" width="25" draggable="false">
+        <img src="../assets/tiktok.png" id="info4" height="25" width="25" draggable="false">
+    </div>
+    <script src="./js/init.js"></script>
+</body>
+</html>
